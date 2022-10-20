@@ -5,6 +5,7 @@
 
 body {
     background: black;
+    color: white;
     font-family: Arial Narrow, sans-serif;
 }
 
@@ -110,58 +111,30 @@ header {
     padding-bottom: 25px;
 }
 
-.my-work {
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+.card {
+    /* box-shadow: 0 4px 8px 0 gold; */
+    /* transition: 0.3s; */
+    border: 1px gold solid;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    /* make opacity look better */
+    opacity: 0.6;
+    width: 50%;
 }
 
-.project1 {
-    border: 2px gold solid;
+.card:hover {
+    /* box-shadow: 0 8px 16px 0 white; */
+    border: 1px solid white;
 }
 
-.boybpic {
-    width: 700px;
-    height: 300px;
+.container {
+    padding: 2px 16px;
+    text-align: center;
 }
 
-.boybpic a:hover {}
-
-
-/* .column {
-    display: flex;
-} */
-
-/* .column1 img {
-    max-width: 100%;
-    float: left;
-    margin: 5px;
-    border: gold 3px solid;
+.projecttitle {
+    text-align: center;
 }
-
-.column img {
-    float: left;
-    margin: 5px;
-    box-sizing: border-box;
-    border: gold 3px solid;
-} */
-
-/* .column1 img {
-    width: auto;
-    max-width: 100%;
-    float: left;
-    margin: 5px;
-    border: #ba181b 3px solid;
-} */
-
-/* .column img {
-    width: auto;
-    float: left;
-    margin: 5px;
-    box-sizing: border-box;
-    border: #ba181b 3px solid;
-} */
 
 .contactinfo {
     font-size: 18px;
@@ -188,6 +161,15 @@ header {
 #phone:hover {
     color: white;
 }
+
+#whatsapp {
+    color: #25D366
+}
+
+#whatsapp:hover {
+    color: white;
+}
+
 
 #email {
     color: rgb(178, 6, 6);
@@ -217,14 +199,45 @@ header {
     color: #ba181b;
 }
 
+/* button for scroll to the top to the screen function */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
 
-@media screen and (max-width: 1000px) {
+#myBtn:hover {
+    background-color: red;
+}
+
+@media screen and (max-width: 880px) {
     .aboutmeinfo {
         width: auto;
     }
 
     .boybpic {
-        width: 400px;
+        width: 500px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutmeinfo {
+        width: auto;
+    }
+
+    .boybpic {
+        width: 350px;
         height: 200px;
     }
 }

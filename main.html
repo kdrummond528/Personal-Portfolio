@@ -17,12 +17,13 @@
         <nav class="navbar">
             <ul>
                 <li class="navbarlinks"><a class="navlinks" href="#aboutme">About Me</a></li>
-                <li class="navbarlinks"><a class="navlinks" href="#work">Work</a></li>
+                <li class="navbarlinks"><a class="navlinks" href="#work">My Work</a></li>
                 <li class="navbarlinks"><a class="navlinks" href="#contactme">Contact Me</a></li>
-                <li class="navbarlinks"><a class="navlinks" href="resume">Resume</a></li>
+                <li class="navbarlinks"><a class="navlinks" href="./assets/KD Resume 2022.docx">Resume</a></li>
             </ul>
         </nav>
     </header>
+
 
     <!-- subheader section with profile image, name, and website title -->
     <section class="subtitle-container">
@@ -37,6 +38,8 @@
             </div>
         </div>
     </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <main>
         <section class="container">
@@ -58,11 +61,33 @@
             <!-- section displaying my work with links -->
             <section class="title" id="work">Work</section>
             <section class="info">
-                <div class="project1">
+
+                <div class="card">
+                    <a href="https://mmllively.github.io/Brews_and_Cruise/">
+                        <img src="./assets/boyb.png" style="width:100%">
+                    </a>
+                    <div class="container">
+                        <h4 class="projecttitle">Brews On Your Block</h4><br>
+                        <p>Brewery Finder Project</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://mmllively.github.io/Brews_and_Cruise/">
+                        <img src="./assets/boyb.png" style="width:100%">
+                    </a>
+                    <div class="container">
+                        <h4 class="projecttitle">Brews On Your Block</h4><br>
+                        <p>Brewery Finder Project</p>
+                    </div>
+                </div>
+
+                <!-- <div class="project1">
                     <a href="https://mmllively.github.io/Brews_and_Cruise/">
                         <img class="boybpic" src="./assets/boyb.png">
                     </a>
-                </div>
+                </div> -->
+
             </section>
 
             <!-- contact me section -->
@@ -71,6 +96,10 @@
                 <!-- phone -->
                 <a href="tel:+14072719542">
                     <i class="fa-solid fa-mobile-screen-button" id="phone" style="font-size:36px"></i>
+                </a>
+                <!-- whatsapp -->
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=+14072719542">
+                    <i class="fa fa-whatsapp" id="whatsapp" style="font-size:40px"></i>
                 </a>
                 <!-- email -->
                 <a href="mailto: k.drummond528@gmail.com">
@@ -93,5 +122,6 @@
 
     </main>
 </body>
+<script src="./script.js"></script>
 
 </html>
