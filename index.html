@@ -5,35 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6219d53626.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
-    <title>Karina Drummond // Web Developer</title>
+    <title>K.D. | Web Developer</title>
 </head>
 
 <body>
     <header>
+        <!-- navigation bar with links-->
         <nav class="navbar">
-            <h1 class="name">Karina Drummond</h1>
             <ul>
-                <li class="navbarlinks"><a href="#aboutme">About Me</a></li>
-                <li class="navbarlinks"><a href="#work">Work</a></li>
-                <li class="navbarlinks"><a href="#contactme">Contact Me</a></li>
-                <li class="navbarlinks"><a href="resume">Resume</a></li>
+                <li class="navbarlinks"><a class="navlinks" href="#aboutme">About Me</a></li>
+                <li class="navbarlinks"><a class="navlinks" href="#work">Work</a></li>
+                <li class="navbarlinks"><a class="navlinks" href="#contactme">Contact Me</a></li>
+                <li class="navbarlinks"><a class="navlinks" href="resume">Resume</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- subheader section with profile image, name, and website title -->
     <section class="subtitle-container">
         <div class="subtitle-img">
-            <h2 class=" subtitletext">Web Portfolio</h2>
+            <section class="subtitle">
+                <h1>Karina Drummond</h1>
+                <h1>Web Portfolio</h1>
+            </section>
+            <!-- profile picture -->
+            <div class="profile">
+                <img class="profilepic" src="./assets/profilepic.JPG">
+            </div>
         </div>
-        <card class="profile-pic"><img src="./assets/profilepic.JPG"></card>
     </section>
 
     <main>
         <section class="container">
 
+            <!-- about me section -->
             <section class="title" id="aboutme">About Me</section>
-            <section class="info aboutmeinfo">
+            <p class="info aboutmeinfo">
                 I am a stay-at-home mom to four children, and wife to an active-duty Sailor.
                 A first-generation Dominican-American, born and raised in Miami. Before the Navy
                 relocated my family to San Diego in 2018, I lived in Orlando for 12 years and completed
@@ -42,46 +52,45 @@
                 I decided to enroll in the UCF Coding Bootcamp to fulfill the desire I have always had to
                 learn web development. As challenging as the program has been, I am thoroughly
                 enjoying every moment of it, and am looking forward to completing the program and beginning
-                my career in web development!<br>
-                <br>
-            </section>
+                my career in web development!
+            </p>
 
+            <!-- section displaying my work with links -->
             <section class="title" id="work">Work</section>
             <section class="info">
-                <section class="my-work">
-                    <section class="column1">
-                        <a href="https://github.com/kdrummond528/Horiseon">
-                            <img src="./assets/horiseon.png" alt="horiseon-image" width="900" height="300"></a>
-                    </section>
-
-                    <section class="column">
-                        <a href="https://github.com/kdrummond528/prework-study-guide">
-                            <img src="./assets/prework.png" alt="pre-work-image" width="445" height="150"></a>
-                        <img src="https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                            alt="underconstruction-image" width="445" height="150">
-                    </section>
-                    <section class="column">
-                        <img src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                            alt="comingsoon-image" width="445" height="150">
-                        <img src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                            alt="comingsoon-image" width="445" height="150">
-                    </section>
-                </section>
+                <div class="project1">
+                    <a href="https://mmllively.github.io/Brews_and_Cruise/">
+                        <img class="boybpic" src="./assets/boyb.png">
+                    </a>
+                </div>
             </section>
 
-            <section class="title" id="contactme">Contact Me</section>
-            <section class="info">
-                <footer class="contactinfo">
-                    <ul>
-                        <li class="footer"><a href="tel:+14072719542">407.271.9542</a></li>
-                        <li class="footer"><a href="mailto: k.drummond528@gmail.com">k.drummond528@gmail.com</a></li>
-                        <li class="footer"><a href="https://github.com/kdrummond528">GitHub</a></li>
-                        <li class="footer"><a href="https://www.linkedin.com/in/karinadrummond">LinkedIn</a></li>
-                    </ul>
-                </footer>
+            <!-- contact me section -->
+            <p class="title" id="contactme">Contact Me</p>
+            <section class="contactinfo">
+                <!-- phone -->
+                <a href="tel:+14072719542">
+                    <i class="fa-solid fa-mobile-screen-button" id="phone" style="font-size:36px"></i>
+                </a>
+                <!-- email -->
+                <a href="mailto: k.drummond528@gmail.com">
+                    <i class="fa-regular fa-envelope" id="email" style="font-size:40px"></i>
+                </a>
+                <!-- github -->
+                <a href="https://github.com/kdrummond528">
+                    <i class="fa fa-github" id="github" style="font-size:43px"></i>
+                </a>
+                <!-- linkedin -->
+                <a href="https://www.linkedin.com/in/karinadrummond">
+                    <i class="fa fa-linkedin-square" id="linkedin" style="font-size:41px"></i>
+                </a>
             </section>
 
         </section>
+
+        <!-- footer -->
+        <footer></footer>
+
     </main>
 </body>
 
