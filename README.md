@@ -25,8 +25,8 @@ This following screenshots show the appearance of my personal porfolio:
 
 ## Links To My Portfolio
 
+Link to portfolio repository on GitHub:
 https://github.com/kdrummond528/Personal-Portfolio
- 
-https://kdrummond528.github.io/Personal-Portfolio/
 
-file:///Users/christopherdrummond/bootcamp/UCF/hw/mod-2-ch/index.html
+Link for Live Deployment:
+https://kdrummond528.github.io/Personal-Portfolio/
