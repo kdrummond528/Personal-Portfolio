@@ -27,6 +27,12 @@ This following screenshots show the appearance of my personal porfolio:
 
 Link to portfolio repository on GitHub:
 https://github.com/kdrummond528/Personal-Portfolio
+<<<<<<< HEAD
  
 Link for Live Deployment:
 https://kdrummond528.github.io/Personal-Portfolio/
+=======
+
+Link for Live Deployment:
+https://kdrummond528.github.io/Personal-Portfolio/
+>>>>>>> origin/main
