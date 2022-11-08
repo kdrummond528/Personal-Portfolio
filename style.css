@@ -49,7 +49,7 @@ header {
 .subtitle-img {
     height: 115px;
     width: 100%;
-    background-image: url("../assets/abstractpic.jpg");
+    background-image: url("./assets/abstractpic.jpg");
     background-size: contain;
 }
 
@@ -111,20 +111,34 @@ header {
     padding-bottom: 25px;
 }
 
-.card {
+.boybcard {
     /* box-shadow: 0 4px 8px 0 gold; */
     /* transition: 0.3s; */
     border: 1px gold solid;
     margin-right: 5px;
     padding-bottom: 5px;
     /* make opacity look better */
-    opacity: 0.6;
+    /* opacity: 0.6; */
     width: 50%;
 }
 
-.card:hover {
+.weathercard {
+    /* box-shadow: 0 4px 8px 0 gold; */
+    /* transition: 0.3s; */
+    border: 1px gold solid;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    /* make opacity look better */
+    /* opacity: 0.6; */
+    width: 100%;
+
+}
+
+.boybcard:hover,
+.weathercard:hover {
     /* box-shadow: 0 8px 16px 0 white; */
     border: 1px solid white;
+    opacity: 0.6;
 }
 
 .container {
@@ -154,6 +168,7 @@ header {
     font-weight: bold;
 }
 
+/* phone icon in contact  */
 #phone {
     color: gray;
 }
@@ -162,6 +177,7 @@ header {
     color: white;
 }
 
+/* whatsapp icon in contact  */
 #whatsapp {
     color: #25D366
 }
@@ -170,7 +186,7 @@ header {
     color: white;
 }
 
-
+/* email icon in contact  */
 #email {
     color: rgb(178, 6, 6);
 }
@@ -179,6 +195,7 @@ header {
     color: white;
 }
 
+/* github icon in contact  */
 #github {
     color: #6e5494;
 }
@@ -187,6 +204,7 @@ header {
     color: white;
 }
 
+/* linkedin icon in contact  */
 #linkedin {
     color: #0e76a8;
 }
