@@ -110,43 +110,34 @@ header {
     padding-bottom: 25px;
 }
 
-.boybcard {
-    /* box-shadow: 0 4px 8px 0 gold; */
-    /* transition: 0.3s; */
-    border: 1px gold solid;
-    margin-right: 5px;
-    padding-bottom: 5px;
-    /* make opacity look better */
-    /* opacity: 0.6; */
-    width: 50%;
-}
-
+.boybcard,
 .weathercard {
-    /* box-shadow: 0 4px 8px 0 gold; */
-    /* transition: 0.3s; */
     border: 1px gold solid;
     margin-right: 5px;
+    height: 150px;
     padding-bottom: 5px;
-    /* make opacity look better */
-    /* opacity: 0.6; */
-    width: 100%;
-
+    width: 50%;
 }
 
 .boybcard:hover,
 .weathercard:hover {
-    /* box-shadow: 0 8px 16px 0 white; */
     border: 1px solid white;
     opacity: 0.6;
 }
 
-.container {
-    padding: 2px 16px;
+.titlecontainer {
+    height: 10px;
+    padding: 2px 10px;
     text-align: center;
 }
 
-.projecttitle {
-    text-align: center;
+.repolink {
+    text-decoration: none;
+    color: #ba181b;
+}
+
+.repolink:hover {
+    color: white;
 }
 
 .contactinfo {
