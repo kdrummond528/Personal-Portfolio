@@ -61,6 +61,7 @@ header {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    background-image: url(./assets/profilepic.jpg);
     border: 3px #ba181b solid;
 }
 
