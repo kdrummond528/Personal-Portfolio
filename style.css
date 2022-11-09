@@ -81,6 +81,7 @@ header {
     padding: 5px;
 }
 
+/* section titles on the right of the pg */
 .title {
     color: gold;
     padding: 10px;
@@ -112,11 +113,12 @@ header {
 
 .boybcard,
 .weathercard {
+    background-color: gold;
     border: 1px gold solid;
     margin-right: 5px;
-    height: 150px;
+    height: 120px;
     padding-bottom: 5px;
-    width: 50%;
+    width: 200px;
 }
 
 .boybcard:hover,
@@ -126,14 +128,14 @@ header {
 }
 
 .titlecontainer {
-    height: 10px;
-    padding: 2px 10px;
+    height: 5px;
+    padding: 2px 2px;
     text-align: center;
 }
 
 .repolink {
     text-decoration: none;
-    color: #ba181b;
+    color: black;
 }
 
 .repolink:hover {
