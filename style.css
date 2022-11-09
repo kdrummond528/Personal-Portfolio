@@ -116,7 +116,7 @@ header {
 .weathercard,
 .passgencard {
     background-color: gold;
-    border: 1px gold solid;
+    border: 2px gold solid;
     margin-right: 5px;
     height: 120px;
     padding-bottom: 5px;
@@ -124,7 +124,8 @@ header {
 }
 
 .boybcard:hover,
-.weathercard:hover {
+.weathercard:hover,
+.passgencard:hover {
     border: 1px solid white;
     opacity: 0.6;
 }
