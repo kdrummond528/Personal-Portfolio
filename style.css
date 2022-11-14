@@ -41,7 +41,7 @@ header {
 }
 
 /* hover effects on links in nav bar */
-*/ .navbarlinks a:hover {
+.navbarlinks a:hover {
     color: white;
 }
 
@@ -110,7 +110,7 @@ header {
     padding-bottom: 25px;
 }
 
-/* section with work info */
+/* section with about me, work, contact info */
 .info {
     font-size: 15px;
     text-align: left;
@@ -124,42 +124,57 @@ header {
     padding-bottom: 25px;
 }
 
-/* picture cards of my work */
-.boybcard,
-.weathercard,
-.passgencard {
-    background-color: gold;
-    border: 2px gold solid;
+.row1 {
+    width: 100%;
+    display: flex;
+
+}
+
+.row2 {
+    width: 100%;
+    display: flex;
+
+}
+
+/* individual project sections */
+.projects {
+    background-color: black;
     margin-right: 5px;
-    height: 120px;
-    padding-bottom: 5px;
-    width: 200px;
+    height: 100%;
+    width: 50%;
+    padding-right: 10px;
 }
 
-/* hover effects for picture cards of my work */
-.boybcard:hover,
-.weathercard:hover,
-.passgencard:hover {
-    border: 1px solid white;
-    opacity: 0.6;
+.projects img {
+    height: 200px;
 }
 
-/* title on the picture cards of my work */
-.titlecontainer {
-    height: 5px;
-    padding: 2px 2px;
+/* github repo link under my work */
+.projectlink {
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.repo {
+    padding-bottom: 8px;
     text-align: center;
 }
 
-/* github repo link in my work */
-.repolink {
-    text-decoration: none;
-    color: black;
+/* hover effect on github repo link in my work */
+.projectlink:hover {
+    color: white;
 }
 
-/* hover effect on github repo link in my work */
-.repolink:hover {
-    color: white;
+/* picture card of projects */
+.projectpic {
+    border: 3px gold solid;
+}
+
+/* hover effects for picture cards of my work */
+.projectpic:hover {
+    opacity: 0.6;
 }
 
 /* my contact info section */
