@@ -21,7 +21,6 @@ footer {
     padding-bottom: 10px;
 }
 
-
 /* navigation bar styling */
 .navbar {
     height: 30px;
@@ -130,11 +129,13 @@ footer {
     padding-bottom: 25px;
 }
 
+/* row with project 1 and 2 */
 .row1 {
     display: inline-flex;
     padding: 5px 5px;
 }
 
+/* row with project 3 and 4 */
 .row2 {
     display: inline-flex;
     padding: 5px 5px;
