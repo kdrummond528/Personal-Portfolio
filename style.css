@@ -121,7 +121,6 @@ footer {
 .info {
     font-size: 15px;
     text-align: left;
-    display: flex;
     align-items: center;
     color: gold;
     justify-content: space-between;
@@ -133,10 +132,12 @@ footer {
 
 .row1 {
     display: inline-flex;
+    padding: 5px 5px;
 }
 
 .row2 {
     display: inline-flex;
+    padding: 5px 5px;
 }
 
 /* project card displaying img with link to deployed website */
@@ -147,7 +148,8 @@ footer {
     width: 50%;
 }
 
-.projectcardimg {
+/* project card img */
+.projectcardimg img {
     height: 200px;
     width: 50%;
 }
