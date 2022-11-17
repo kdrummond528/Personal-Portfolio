@@ -15,6 +15,13 @@ header {
     color: black;
 }
 
+footer {
+    color: gold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
 /* navigation bar styling */
 .navbar {
     height: 30px;
@@ -122,6 +129,14 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 25px;
+}
+
+.row1 {
+    display: inline-flex;
+}
+
+.row2 {
+    display: inline-flex;
 }
 
 /* project card displaying img with link to deployed website */
