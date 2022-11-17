@@ -124,57 +124,43 @@ header {
     padding-bottom: 25px;
 }
 
-.row1 {
-    width: 100%;
-    display: flex;
-
-}
-
-.row2 {
-    width: 100%;
-    display: flex;
-
-}
-
-/* individual project sections */
-.projects {
-    background-color: black;
+/* project card displaying img with link to deployed website */
+.projectcard {
+    border: 1px gold solid;
     margin-right: 5px;
-    height: 100%;
+    padding-bottom: 0px;
     width: 50%;
-    padding-right: 10px;
 }
 
-.projects img {
+.projectcardimg {
     height: 200px;
+    width: 50%;
 }
 
-/* github repo link under my work */
-.projectlink {
+.projectcard:hover {
+    border: 1px solid white;
+    opacity: 0.6;
+}
+
+/* container with project title and link to github repo */
+.projecttitlecontainer {
+    height: 20px;
+    text-align: center;
+    background-color: gold;
+}
+
+/* project title with link to github repo */
+.projecttitle {
+    color: black;
     text-decoration: none;
-    color: gold;
-    font-weight: bold;
-    padding-top: 5px;
-}
-
-.repo {
-    padding-bottom: 8px;
     text-align: center;
 }
 
-/* hover effect on github repo link in my work */
-.projectlink:hover {
-    color: white;
-}
-
-/* picture card of projects */
-.projectpic {
-    border: 3px gold solid;
-}
-
-/* hover effects for picture cards of my work */
-.projectpic:hover {
-    opacity: 0.6;
+.projecttitle:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
 }
 
 /* my contact info section */
